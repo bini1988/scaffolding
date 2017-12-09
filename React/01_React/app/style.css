@@ -1,0 +1,15 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetice Neue, sans-serif;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 890px;
+}
+
+.header {
+  font-size: 28px;
+  line-height: 32px;
+  color: #d0021b;
+  text-align: center;
+}
