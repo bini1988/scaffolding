@@ -1,0 +1,16 @@
+.page-main {
+  padding: 40px;
+
+  & h1 {
+    margin: 15px 0px;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  & p {
+    margin: 10px 0px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
