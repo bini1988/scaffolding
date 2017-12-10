@@ -1,0 +1,37 @@
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  color: #34495e;
+  background-color: #2ecc71;
+}
+
+.page-main {
+  padding: 40px;
+}
+
+.page-main h1 {
+  margin: 15px 0px;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.page-main p {
+  margin: 10px 0px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.page-footer {
+  padding: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  color: #34495e;
+  background-color: #2ecc71;
+}
