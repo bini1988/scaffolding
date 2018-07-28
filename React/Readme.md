@@ -7,3 +7,7 @@ Base React Configuration. Dependencies: `webpack`, `webpack-dev-server`, `html-w
 2. 02_React
 
 Base React Configuration + SASS support. Dependencies: `webpack`, `webpack-dev-server`, `html-webpack-plugin`, `sass-loader`, `babel-preset-{es2015, react, stage-0}`.
+
+2. 03_React
+
+Base React CDN Configuration
