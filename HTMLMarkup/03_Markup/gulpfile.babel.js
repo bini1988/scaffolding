@@ -28,13 +28,13 @@ import csso from "postcss-csso";
  * rollup                     - Build JavaScript modules
  * rollup-plugin-node-resolve - Resolve npm pakages
  * rollup-plugin-babel        - Add es2015 support
- * rollup-plugin-uglify       - Minimize js code
+ * rollup-plugin-terser       - Minimize js code
  *
  */
 import { rollup } from "rollup";
 import resolve from "rollup-plugin-node-resolve";
 import babel from "rollup-plugin-babel";
-import uglify from "rollup-plugin-uglify";
+import { terser } from "rollup-plugin-terser";
 
 /**
  * Gulp Dev Plugins
@@ -133,7 +133,7 @@ gulp.task("js", function() {
         babelrc: false,
         exclude: "node_modules/**"
       }),
-      uglify(),
+      terser(),
     ]
   }).then((bundle) => {
     return bundle.write({
